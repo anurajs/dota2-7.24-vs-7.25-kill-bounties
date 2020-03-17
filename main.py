@@ -71,4 +71,4 @@ print(int(kill_old(victim_streak,victim_level) + old_aoe(surrounding_heroes,0.6,
 
 print(int(kill_old(victim_streak,victim_level) + old_aoe(surrounding_heroes,1.2,0.4,comeback,victim_level,victim_networth))," gold if you are the poorest on your team, the victim is the poorest on their team - old formula")
 
-print(int(kill_new(victim_streak,victim_level) + new_aoe(surrounding_heroes,victim_networth)), "Gold for new formula")
+print(int(kill_new(victim_streak,victim_level) + new_aoe(surrounding_heroes,victim_networth)), " gold for new formula")
